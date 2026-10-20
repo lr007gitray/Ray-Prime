@@ -1,26 +1,24 @@
-// Gerenciador de Dados com LocalStorage para a Ray Prime
+// Gerenciador de Dados para a Ray Prime
 const CHAVE_STORAGE = "ray_prime_imoveis";
 
 const imoveisIniciais = [
     {
         id: 1,
-        titulo: "Casa Residencial Moderna",
-        tipo: "Casa",
+        titulo: "Terreno Ideal para Chácara - 1.000m²",
+        tipo: "Terreno",
         finalidade: "Venda",
-        preco: 450000,
+        preco: 100000,
         cidade: "São Paulo - SP",
-        area: 180,
-        quartos: 3,
-        suites: 1,
-        banheiros: 2,
-        vagas: 2,
+        area: 1000,
+        quartos: 0,
+        banheiros: 0,
         status: "Disponível",
-        descricao: "Bela casa com acabamento de primeira linha e espaço gourmet completo.",
-        imagem: "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=800&q=80",
+        descricao: "Terreno espetacular com 1.000m², pronto para construir, com água direto da fonte, energia no local e excelente localização. Perfeito para chácara!",
+        imagem: "imagens/terreno1.jpg",
         fotosGaleria: [
-            "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=800&q=80"
+            "imagens/terreno1.jpg"
         ],
-        videosUrl: [] // Lista de vídeos do YouTube
+        videosUrl: [] // Cole aqui o link do YouTube se quiser, ex: ["https://www.youtube.com/watch?v=SEU_CODIGO"]
     }
 ];
 
